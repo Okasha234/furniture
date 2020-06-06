@@ -1,0 +1,92 @@
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+.fa-cart-arrow-down, .fa-user-circle{
+    font-size: 25px !important;
+}
+.fa-truck, .fa-headphones, .fa-thumbs-up, .fa-mobile, .fa-map-marker, .fa-envelope, .fa-heart, .fa-lightbulb-o{
+    font-size: 45px !important;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 400px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+.mainCard{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.newArrivals{
+    margin-top: 40px;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+}
+.card{
+    width: 250px !important;
+    height: auto;
+    margin-top: 1%;
+}
+.heading{
+    position: relative;
+    left: 37%;
+    color: red;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 1%;
+}
+.heading > h2{
+    text-shadow: 2px 2px 4px black;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-image: url('images/background-footer.jpg')
+}
+.footer > div{
+    text-align: center;
+}
+h4{
+    color: #fff;
+}
+
+.map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-3 iframe{
+    left:0;
+    top:10px;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.read_more{
+    position: relative;
+    text-align: center;
+    color: darkslateblue;
+    border: 1px solid darkslateblue;
+    border-radius: 10px;
+    margin: 1%;
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+  }
